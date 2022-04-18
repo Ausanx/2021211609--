@@ -23,4 +23,4 @@ int thread_sample(void)
 							THREAD_PRIORITY,THREAD_TIMESLICE);
 	if (tid1 != RT_NULL)
 		rt_thread_starup(tid1);
-}
+} 
