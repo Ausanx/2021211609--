@@ -1,6 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-#include <rtthread.h>
+#include <rtthread.h>  
 #define THREAD_PRIORITY 25
 #define THREAD_STACK_SIZE 512
 #define THREAD_TIMESLICE 5
@@ -23,4 +23,5 @@ int thread_sample(void)
 							THREAD_PRIORITY,THREAD_TIMESLICE);
 	if (tid1 != RT_NULL)
 		rt_thread_starup(tid1);
+		
 } 
